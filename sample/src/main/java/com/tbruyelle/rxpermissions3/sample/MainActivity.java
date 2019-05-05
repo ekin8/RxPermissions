@@ -1,4 +1,4 @@
-package com.tbruyelle.rxpermissions2.sample;
+package com.tbruyelle.rxpermissions3.sample;
 
 import android.Manifest.permission;
 import android.hardware.Camera;
@@ -8,8 +8,8 @@ import android.view.SurfaceView;
 import android.widget.Toast;
 
 import com.jakewharton.rxbinding3.view.RxView;
-import com.tbruyelle.rxpermissions2.Permission;
-import com.tbruyelle.rxpermissions2.RxPermissions;
+import com.tbruyelle.rxpermissions3.Permission;
+import com.tbruyelle.rxpermissions3.RxPermissions;
 
 import java.io.IOException;
 

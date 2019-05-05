@@ -17,7 +17,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    implementation 'com.tbruyelle.rxpermissions3:RxPermissions:2.0.0'
 }
 ```
 

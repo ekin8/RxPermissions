@@ -1,4 +1,4 @@
-package com.tbruyelle.rxpermissions2;
+package com.tbruyelle.rxpermissions3;
 
 import android.app.Activity;
 import android.content.Context;

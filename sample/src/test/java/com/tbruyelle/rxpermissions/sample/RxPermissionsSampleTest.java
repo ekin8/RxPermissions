@@ -5,8 +5,8 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Build;
 
-import com.tbruyelle.rxpermissions2.Permission;
-import com.tbruyelle.rxpermissions2.RxPermissions;
+import com.tbruyelle.rxpermissions3.Permission;
+import com.tbruyelle.rxpermissions3.RxPermissions;
 
 import org.junit.Before;
 import org.junit.Test;

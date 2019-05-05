@@ -6,6 +6,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath "com.meicloud.plugin:mission-lib-plugin:2.0.4"
     }
 }
 

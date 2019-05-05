@@ -1,5 +1,8 @@
 apply plugin: 'com.android.library'
 
+group = GROUP
+version = VERSION_NAME
+
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
