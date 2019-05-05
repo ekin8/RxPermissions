@@ -1,0 +1,29 @@
+buildscript {
+    ext.MC_REPOSITORY_URL = 'http://mxdev.meicloud.com/repository/maven-public/'
+
+    repositories {
+        maven { url MC_REPOSITORY_URL }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url MC_REPOSITORY_URL }
+    }
+}
+
+ext {
+    minSdkVersion = 21
+    compileSdkVersion = 28
+    targetSdkVersion = compileSdkVersion
+
+    publishedGroupId = 'com.tbruyelle.rxpermissions3'
+    artifact = 'rxpermissions'
+    libraryName = 'RxPermissions'
+    libraryVersion = '2.0.0'
+
+    libraryDescription = 'A wrapper for Android 6.0 permissions(Androidx)'
+}
